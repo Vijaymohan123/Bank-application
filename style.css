@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    border:1px solid black;
+    text-align: center;
+    padding:10px;
+}
+
+.container{
+    border:1px solid black;
+    display: flex;
+    height:90vh;
+}
+.container > div{
+    border:1px solid black;
+    flex:1 1 50%;
+}
+.container .heading{
+    text-align: center;
+    padding:10px;
+}
+.container .input-container{
+    padding:10px;
+    width:50%;
+    margin:10px auto;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-content{
+    justify-content:center !important;
+}
+.btn-content > button{
+    padding:10px 30px;
+    background-color: #f3971b;
+    color:#353535;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}
+.input-container > input{
+    padding:5px;
+}

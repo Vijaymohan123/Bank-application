@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            Bank Application
+        </title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="Images/kindpng_2077865.png" />
+    </head>
+    <body>
+        <header>
+            <h1>Bank Application</h1>
+        </header>
+        <div class="container">
+            <div class="left-container">
+                <h3 class="heading">Form Fields</h3>
+                <form class="form">
+                    <div class="input-container">
+                        <label for="accountId">Account Number</label>
+                        <input type="text" id="accountId"/>
+                    </div>
+                    <div class="input-container">
+                        <label>User name</label>
+                        <input id="userName" />
+                    </div>
+                    <div class="input-container">
+                        <label>Address</label>
+                        <textarea id="address"></textarea>
+                    </div>
+                    <div class="input-container">
+                        <label>DOB</label>
+                        <input type="date" id="dob" />
+                    </div>
+                    <div class="input-container">
+                        <div>Gender</div>
+                        <div>
+                            <input type="radio" value="male" id="male" name="Gender"/>
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                           <input type="radio" value="female" id="female" name="Gender"/>
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div>Account Type</div>
+                        <div>
+                            <input type="checkbox" id="SB" name="sb" value="SB" />
+                            <label>SB</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="FD" name="fd" value="FD" />
+                            <label>FB</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="CB" name="cb" value="CB" />
+                            <label>CB</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="LOAN" name="loan" value="LOAN" />
+                            <label>LOAN</label>
+                        </div>
+                    </div>
+                    <div class="input-container btn-content">
+                        <button>SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+            <div class="right-container">
+                <div class="details" id="details"></div>
+            </div>
+        </div>
+    </body>
+</html>
